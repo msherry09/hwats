@@ -1,0 +1,281 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-image:url('../images/BrownChecker.png');
+	background-repeat:repeat;
+}
+
+html, body, .site {
+	height: 100%;
+}
+
+body > .site { 
+	height: auto; 
+	min-height: 100%;
+}
+
+
+.container { 
+	overflow: auto; 
+	padding-bottom: 175px; 
+} 
+
+.footer {
+    position: relative;
+    margin-top: -175px;
+    height: 175px;
+    clear: both;
+}
+
+ /*-------------------------------------------------------------*\
+
+							$TYPE
+
+\*-------------------------------------------------------------*/
+p {
+	font-family: arial, helvetica, sans-serif;
+	margin-left: 0;
+	margin-top: 4px;
+	margin-bottom: 4px;		
+}
+
+.clear {
+	clear:both;
+}
+
+.center {
+	text-align: center;		
+}
+
+.right{
+	text-align: right;
+    float: right;
+}
+
+.left{
+	text-align: left;
+	float: left;
+}
+
+h1 , h2, h3, h4, h5 {
+	font-family: Arial Black, Helvetica Bold, sans-serif;
+	line-height: 150%;
+	color: #542d08;
+	white-space: nowrap;
+	text-align: center;
+	text-transform: uppercase
+}
+
+h1 {
+	font-size:24px
+}
+
+h2 {
+	font-size:20px;
+}
+
+h3 {
+	font-size:16px
+}
+
+h4 {
+	font-size:12px
+}
+
+h5 {
+	font-size:10px;
+}
+
+ /*-------------------------------------------------------------*\
+
+							$DIVS
+
+\*-------------------------------------------------------------*/
+
+div {
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.site{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	font-family: arial, helvetica, sans-serif;
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+.shadow{
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+
+.textArea{
+	margin: 1% 0 1% .5%; /* top, right, bottom, left*/
+	width: 95%;
+	float: right;
+}
+
+.myContent{
+	min-height:350px;
+	height:auto !important;
+	height:350px; 	
+}
+
+ /*-------------------------------------------------------------*\
+ 
+							$OTHER ELEMENTS
+							
+\*-------------------------------------------------------------*/
+
+textarea{
+    resize:none;
+}
+
+fieldset{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#address
+{
+	width:580px;
+}
+
+#email
+{
+	width:460px;
+}
+
+#answertext
+{
+	font-size: 9pt;
+	text-align: center;
+}
+
+#reportdisplay
+{
+	font-size: 11pt;
+	word-wrap: break-word;
+}
+
+#navbar ul { 
+    margin: 0; 
+    padding: 10px; 
+    list-style-type: none; 
+    text-align: center; 
+    background-image:url('../images/footer.png');
+} 
+
+#navbar ul li {  
+	display: inline; 
+} 
+
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 	
+	font-weight: bold;
+} 
+
+#navbar ul li a:hover { 
+	color: #F5DEB3;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.active,
+#navbar ul li a.active:hover {
+	color:#CDBD9F;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"]{
+	border-radius: 7px 7px 7px 7px;
+	background-color:#CDBD9F;	
+	border-color:transparent;
+}
+
+.errortext
+{
+	font-size: 9pt;
+	color: red;
+	text-align: right;
+	font-style: italic;
+}
+
+.padding{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.footertext{
+	color: white;
+}
+
+.green{
+	background-image:url('../images/footer.png');
+}
+
+.grey{
+	background-color: #e1e1e1;
+}
+
+.white{	
+	background-color: #ffffff;
+}
+
+.beige{
+	background-image:url('../images/header.png');	
+}
+
+.headertext{
+	font-family: Arial Black, Helvetica Bold, sans-serif;
+	font-weight: bold;
+	color: #542d08;
+	white-space: nowrap;
+	left: -40px;
+	top: -6px;
+	font-size:24px;
+}
+
+.greentext{
+	font-size: 10pt;
+	color:#175a17;
+}
+
+.greentext a{
+	color:#175A17
+}
+
+.reportheader{
+	font-size:18px;
+}
+
+.buttonarea{
+	text-align: center; 
+	padding-top: 20px; 
+	padding-bottom: 20px;
+}
+
+.pabuttons {
+	padding-bottom: 20px;
+}
+
+.blocktext{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+/*
+fieldset{
+	padding-left: 12px; 
+	padding-right: 12px; 
+}*/
